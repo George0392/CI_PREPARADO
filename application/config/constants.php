@@ -108,7 +108,7 @@ if (isset($_SERVER['HTTP_HOST'])) {
 }
 
 else {
-    $base_url = 'http://localhost/';
+    $base_url = 'http://127.0.0.1';
     $base_uri = '/';
 }
 
