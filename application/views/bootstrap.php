@@ -8,7 +8,7 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap3.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap4.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/font-awesome.css">
 
 
@@ -21,14 +21,18 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello, world!</h1>
-    <a href="" class="btn btn-info" > conectando con Codeigniter</a>
+      <h1>Hello, bootstrap 4!</h1>
+    <a href="" class="btn btn-primary" > conectando con Codeigniter</a>
     <br>
     <i class="fa fa-bath" aria-hidden="true">holaaaaaaaaaaaaa</i>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
     <script src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/popper.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
   </body>
